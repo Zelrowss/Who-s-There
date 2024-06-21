@@ -393,6 +393,7 @@ MonoBehaviour:
     m_Value:
     - {fileID: 11400000, guid: 404820c4cf36ad944862fa59c56064f0, type: 2}
     - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
+    - {fileID: 11400000, guid: dec8c2e05fee7ee488940010f9e0b0bc, type: 2}
 --- !u!114 &5315503232242033309
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -561,8 +562,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   rayTracing:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   intensity:
     m_OverrideState: 1
     m_Value: 0.5
