@@ -40,6 +40,9 @@ public class CameraController : MonoBehaviour
 
     void Start() {
         baseFOV = _vCamera.m_Lens.FieldOfView;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
     }
 
     void Update()
